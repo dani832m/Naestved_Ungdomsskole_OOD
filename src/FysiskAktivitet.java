@@ -1,9 +1,11 @@
 public class FysiskAktivitet extends Kursus {
 
+    //Instansvariabler for FysiskAktivitet
     private boolean medbringHaandklaede = false; //False er default
 
-    public FysiskAktivitet(String navn, Underviser underviser, Lokale lokalenr, boolean medbringHaandklaede) {
-        super(navn, underviser, lokalenr); //Constructor er nedarvet fra klassen Kursus
+    //Constructor for FysiskAktivitet
+    public FysiskAktivitet(String kursusNavn, Underviser underviser, Lokale lokalenr, Ugedag ugedag, boolean afsluttendeProeve, boolean medbringHaandklaede) {
+        super(kursusNavn, underviser, lokalenr, ugedag, afsluttendeProeve); //Constructor er nedarvet fra klassen Kursus
         this.medbringHaandklaede = medbringHaandklaede;
     }
 
