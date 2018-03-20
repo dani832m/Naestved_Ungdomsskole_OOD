@@ -29,3 +29,5 @@ Dette repository indeholder mit arbejde med at lave et tilmeldingssystem til en 
 * Man skal kunne se en liste af udbudte kurser inddelt efter ugedag. 
 * Når man klikker ind på et kursus, skal man kunne se kursusbeskrivelse, ugedag, tidspunkt, underviser, lokale samt tilmeldte deltagere.
 * I skal lave funktionalitet til at oprette brugere og kurser samt tilmelding/framelding af brugere til kurser.
+
+![alt text](https://i.imgur.com/kJrz2vj.png "Udviklet af dani832m")
