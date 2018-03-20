@@ -21,7 +21,7 @@ Dette repository indeholder mit arbejde med at lave et tilmeldingssystem til en 
 * Start evt. med en del af systemet, og byg så ud med flere klasser efterhånden som systemet udvides.
 
 #### Programmering
-* I skal lave et lille program med en GUI, hvor unge kan tilmelde sig kurser i Næstved Ungdomsskole.
+* ~~I skal lave et lille program med en GUI, hvor unge kan tilmelde sig kurser i Næstved Ungdomsskole.~~
 * Programmet skal være objektorienteret (dvs. at alt data ligger i objekter og logik vedr. objekterne ligger i den tilhørende klasse).
 * Der skal ikke tilknyttes en database til systemet (data skal således ikke gemmes når programmet lukkes). 
 * For at tilmelde sig kurser, skal man logge ind i systemet. I skal sikre at man ikke kan tilmelde sig flere kurser på samme ugedag.
