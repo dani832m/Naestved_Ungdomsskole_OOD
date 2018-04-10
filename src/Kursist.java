@@ -20,8 +20,13 @@ public class Kursist {
         this.id = id;
         this.password = password;
 
-        if (alder < 13 || alder > 18) {
-            throw new IllegalArgumentException("Kursisten skal være mellem 14 og 18 år.");
+        try {
+            if (alder < 13 || alder > 18) {
+                throw new IllegalArgumentException("Kursisten skal være mellem 14 og 18 år.");
+            }
+        }
+        catch (IllegalArgumentException ex) {
+            System.out.println(ex);
         }
     }
 
@@ -29,5 +34,4 @@ public class Kursist {
     public String toString() {
         return "Kursistnavn: " + kursistNavn + ", Alder: " + alder + ", Klasse: " + klasse + "., Telefonnummer: " + telefonnr;
     }
-
 }

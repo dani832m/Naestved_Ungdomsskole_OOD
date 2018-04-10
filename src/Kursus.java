@@ -20,5 +20,4 @@ public abstract class Kursus {
     public String toString() {
         return "Kursusnavn: " + kursusNavn + ", Underviser: " + underviser + ", Lokale nr. " + lokalenr + ", Ugedag: " + ugedag + ", Afsluttes med en prøve: " + afsluttendeProeve;
     }
-
 }

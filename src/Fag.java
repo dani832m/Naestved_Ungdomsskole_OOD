@@ -8,5 +8,4 @@ public class Fag extends Kursus {
         super(kursusNavn, underviser, lokalenr, ugedag, afsluttendeProeve); //Constructor er nedarvet fra klassen Kursus
         this.antalBoeger = antalBoeger;
     }
-
 }
