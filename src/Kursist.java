@@ -8,7 +8,6 @@ public class Kursist {
     private int telefonnr;
     private int id;
     private String password;
-    private Kursus[] tilmeldteKurser;
 
     //Constructor for Kursist
     public Kursist(String kursistNavn, int alder, String skole, int klasse, int telefonnr, int id, String password) {

@@ -17,5 +17,9 @@ public class Test {
         Kursist kursist2 = new Kursist("Ole Olesen", 16, "Bøgemarkskolen", 9,21987754,2,"oleersej123");
         System.out.println(kursist2); //Tester toString()
 
+        //Array med kursister
+        Kursist[] hold1 = new Kursist[2];
+        hold1[0] = kursist1;
+        hold1[1] = kursist2;
     }
 }
