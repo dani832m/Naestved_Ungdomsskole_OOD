@@ -30,9 +30,10 @@ Dette repository indeholder mit arbejde med at lave et tilmeldingssystem til en 
 * Når man klikker ind på et kursus, skal man kunne se kursusbeskrivelse, ugedag, tidspunkt, underviser, lokale samt tilmeldte deltagere.
 * I skal lave funktionalitet til at oprette brugere og kurser samt tilmelding/framelding af brugere til kurser.
 
-#### Screenshots
+### Screenshots
 
 Første udkast:
+
 ![alt text](https://i.imgur.com/jQOdjWj.png "Udkast 1")
 
 ![alt text](https://i.imgur.com/kJrz2vj.png "Udviklet af dani832m")
