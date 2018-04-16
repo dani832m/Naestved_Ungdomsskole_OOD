@@ -1,5 +1,8 @@
-import java.util.ArrayList;
-
+/**
+ * I denne klasse testes nogle af systemets objekter og metoder.
+ *
+ * @author Daniel
+ */
 public class Test {
 
     public static void main(String[] args) {
